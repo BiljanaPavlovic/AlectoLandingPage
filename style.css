@@ -218,9 +218,13 @@ nav ul li a:hover {
     grid-template-columns: auto;
   }
   .header-text {
-    left: 100%;
+    top: 50%;
+    left: 150%;
   }
   .about-segments {
     grid-template-columns: auto auto;
+  }
+  .section-three img {
+    width: 650px;
   }
 }
