@@ -217,6 +217,22 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: auto;
   }
+  nav {
+    position: static;
+  }
+  nav .container {
+    flex-direction: column;
+  }
+  .logo {
+    display: block;
+    margin: auto;
+  }
+  nav ul {
+    justify-content: center;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
   .header-text {
     top: 50%;
     left: 150%;
